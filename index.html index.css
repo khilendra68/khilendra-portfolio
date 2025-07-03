@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khilendra Panche| Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="kp1.jpg" alt="Khilendra's Photo" class="profile-pic" />
+      <h1>Khilendra Panche</h1>
+      <p>Frontend Web Developer | C & Java Programmer | DSA Enthusiast</p>
+    </header>
+
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate frontend developer skilled in HTML, CSS, JavaScript and React and strong foundation in C and Java.
+        I enjoy building responsive web interfaces and solving problems using Data Structures and Algorithms.
+        I'm passionate about building clean, responsive web interfaces and solving real-world problems.
+        Actively seeking job or internship opportunities to grow and contribute in the tech space.
+      </p>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Event Management System</strong> – An Event Management System is a web-based platform designed to streamline the planning, coordination, and execution of events. It allows organizers to manage invitations, venue selection, entertainment, catering, and logistics from a single dashboard.
+ [HTML, CSS, JS, React]</li>
+
+        <li><strong>Library management System</strong> – A Library Management System is a software application that automates the daily operations of a library. It helps librarians manage book inventories, member records, and circulation processes efficiently. 
+[HTML, CSS, JS]</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: 0112cs221068@gmail.com</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/khilendra68" target="_blank">linkedin.com/in/khilendra68</a></p>
+      <p>GitHub: <a href="https://github.com/khilendra68" target="_blank">github.com/khilendra68</a></p>
+    </section>
+  </div>
+</body>
+</html>
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #333;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 10px 0 5px;
+}
+
+h2 {
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
